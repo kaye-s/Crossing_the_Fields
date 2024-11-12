@@ -1,4 +1,4 @@
-from commands import *
+from commands import comp_str, Demon, AvailCommands
 
 class Bedroom:
     def __init__(self, demon):
