@@ -225,9 +225,10 @@ class Bedroom:
 
 def run_bedroom(demon):
     bedroom = Bedroom(demon)
+    print("-----------------------------------------------------------------------------------------------------------")
     print("You wake up in your childhood bedroom.\n Hint: try \n\tw \ta \ts \td : to move \n\ti : to view inventory")
     print("Every command is one or two words, learn what you can do in each area. \n\tYour goal is simple: Escape\n")
-
+    print("-----------------------------------------------------------------------------------------------------------")
     move = bedroom.start()
     while move != "complete":
         move = {
@@ -239,6 +240,4 @@ def run_bedroom(demon):
             "drawer": bedroom.drawer,
             "underBed": bedroom.underBed
         }.get(move, lambda: move)()
-
-    print("Congratulations, you completed level 1! Come back later for level 2.")
     return demon

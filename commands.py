@@ -27,6 +27,9 @@ class Demon:
     def add_to_inventory(self, item):
         self.inventory.append(item)
 
+    def remove_from_inventory(self, item):
+        self.inventory.remove(item)
+
 class AvailCommands:
     def __init__(self):
         self.simple_commands = []
