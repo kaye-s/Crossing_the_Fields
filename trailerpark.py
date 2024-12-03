@@ -27,7 +27,7 @@ class TrailerPark:
             print("")
             if command == "i":
                 self.demon.print_inventory()
-            elif command == "load gun":
+            elif command == "load gun" or command == "load rifle":
                 self.load_gun()
             return {
                 "w": "trailers",
@@ -44,7 +44,7 @@ class TrailerPark:
 
             if command == "i":
                 self.demon.print_inventory()
-            elif command == "load gun":
+            elif command == "load gun" or command == "load rifle":
                 self.load_gun()
 
             # movement commands
@@ -72,7 +72,7 @@ class TrailerPark:
             if command == "i":
                 self.demon.print_inventory()
 
-            elif command == "load gun":
+            elif command == "load gun" or command == "load rifle":
                 self.load_gun()
 
             # movement commands
@@ -110,7 +110,7 @@ class TrailerPark:
             if command == "i":
                 self.demon.print_inventory()
 
-            elif command == "load gun":
+            elif command == "load gun" or command == "load rifle":
                 self.load_gun()
 
             # movement commands
@@ -133,7 +133,7 @@ class TrailerPark:
 
             if command == "i":
                 self.demon.print_inventory()
-            elif command == "load gun":
+            elif command == "load gun" or command == "load rifle":
                 self.load_gun()
 
             # movement commands
@@ -154,7 +154,7 @@ class TrailerPark:
 
             if command == "i":
                 self.demon.print_inventory()
-            elif command == "load gun":
+            elif command == "load gun" or command == "load rifle":
                 self.load_gun()
 
             # movement commands

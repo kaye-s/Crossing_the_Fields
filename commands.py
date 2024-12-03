@@ -1,6 +1,9 @@
 def comp_str(string1, string2):
     return string1.lower() == string2.lower()
 
+def strike(text):
+    return ''.join([u'\u0336{}'.format(c) for c in text])
+
 class Demon:
     def __init__(self):
         self.ac = None
