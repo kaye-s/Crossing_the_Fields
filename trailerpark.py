@@ -341,8 +341,8 @@ def run_trailer(demon):
     trailer = TrailerPark(demon)
     print("-----------------------------------------------------------------------------------------------------------")
     print(
-        "\nYou come to at the bottom of a small valley, looking up you see the hill you rolled "
-        "down and the window you escaped from. \nYou worry about what Stoner might do alone in the house "
+        "\nYou awaken at the bottom of a small valley, you must have rolled down the hill. You can see your trailer up there in the distance"
+        "\nYou worry about what Stoner might do alone in the house "
         "with Mom.\n\nHint: try \n\tw \ta \ts \td : to move \n\ti : to view inventory\n")
     print(
         "Every command is one or two words, learn what you can do in each area. \n\tYour goal is simple: Save Mom\n")
@@ -361,6 +361,4 @@ def run_trailer(demon):
             "forest": trailer.forest
 
         }.get(move, lambda: move)()
-
-    print("\nCongratulations, you reached a possible ending for level 1! Try again to see another ending and wait for level 2.")
     return demon

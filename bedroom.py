@@ -147,7 +147,7 @@ class Bedroom:
             elif command == "open window":
                 print("The window seems to be stuck, if only you had something to pry it open")
             elif command in ["escape", "w"] and self.window_is_open:
-                print("You escape through the window")
+                print("You escape through the window into a blinding light")
                 return "complete"
             elif command == "look out":
                 print("You look out the window. In front of the window you see a dog cage. Beyond that, the Peggot trailer.")

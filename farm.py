@@ -33,7 +33,7 @@ class Farm:
             if self.moves == 5:
                 print("You feel a little lightheaded\n")
             if self.moves == 8:
-                print("Your headache and nausea worsen")
+                print("Your headache and nausea worsen\n")
             if self.moves == 13:
                 print("You are really not feeling well, if you don't find the exit soon you might pass out\n")
             self.moves = self.moves + 1
